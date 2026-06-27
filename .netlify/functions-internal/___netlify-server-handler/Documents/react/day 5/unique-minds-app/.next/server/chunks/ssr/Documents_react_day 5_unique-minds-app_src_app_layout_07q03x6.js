@@ -1,0 +1,3 @@
+module.exports=[98218,a=>{"use strict";var b=a.i(86964);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"Unique Minds | Child Development Services",description:"Providing premium occupational therapy, speech therapy, and psychological services for children."}])},4641,a=>{a.n(a.i(98218))}];
+
+//# sourceMappingURL=Documents_react_day%205_unique-minds-app_src_app_layout_07q03x6.js.map

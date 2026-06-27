@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__131f1e7._.js")
+R.c("server/chunks/ssr/1n7t_next_dist_1-q663g._.js")
+R.c("server/chunks/ssr/1n7t_next_dist_esm_build_templates_app-page_156opsv.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0zd7w3-._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__13z0c51._.js")
+R.c("server/chunks/ssr/Documents_react_day 5_unique-minds-app_src_app_layout_07q03x6.js")
+R.c("server/chunks/ssr/1n7t_next_dist_client_components_084xabm._.js")
+R.c("server/chunks/ssr/1n7t_next_dist_client_components_builtin_forbidden_1bh5gm4.js")
+R.c("server/chunks/ssr/1n7t_next_dist_client_components_builtin_unauthorized_17at9eo.js")
+R.c("server/chunks/ssr/1m3h_unique-minds-app__next-internal_server_app__not-found_page_actions_0k1drr-.js")
+R.m(20291)
+module.exports=R.m(20291).exports

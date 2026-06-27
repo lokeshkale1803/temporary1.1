@@ -1,0 +1,136 @@
+.why-section {
+  background-color: #FDFDFc;
+  padding: 6rem 0;
+}
+
+.why-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.why-image-area {
+  flex: 1;
+}
+
+.why-image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.why-img {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.quote-card {
+  position: absolute;
+  bottom: 40px;
+  right: -40px;
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  max-width: 350px;
+}
+
+.quote-icon {
+  font-family: serif;
+  font-size: 4rem;
+  color: #DE6A4D;
+  line-height: 0;
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.quote-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #104037;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.quote-author {
+  color: #5A6361;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.why-content-area {
+  flex: 1;
+  max-width: 600px;
+}
+
+.why-label {
+  color: #DE6A4D;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.why-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: #104037;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.why-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.why-feature-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.why-feature-icon {
+  margin-top: 0.2rem;
+}
+
+.why-feature-text h3 {
+  color: #104037;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.why-feature-text p {
+  color: #5A6361;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .why-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .quote-card {
+    right: 20px;
+    left: 20px;
+    max-width: calc(100% - 40px);
+  }
+  
+  .why-title {
+    font-size: 2.5rem;
+  }
+}

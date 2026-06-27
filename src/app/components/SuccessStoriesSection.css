@@ -1,0 +1,124 @@
+.stories-section {
+  background-color: #104037;
+  padding: 6rem 0;
+  color: white;
+}
+
+.stories-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 4rem;
+}
+
+.stories-title-area {
+  max-width: 700px;
+}
+
+.stories-label {
+  color: #DE6A4D;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.stories-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.stories-link {
+  color: #E2CD9A; /* Soft yellow/gold from the screenshot */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.story-card {
+  background-color: #1A554A; /* Slightly lighter green for the card */
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.story-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.story-content {
+  padding: 2.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.story-quote-icon {
+  font-family: serif;
+  font-size: 3rem;
+  color: #E2CD9A;
+  line-height: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+.story-quote-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #E8EBEA;
+  margin-bottom: 3rem;
+  flex-grow: 1;
+}
+
+.story-author h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.story-author p {
+  color: #9AA6A3;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 1024px) {
+  .stories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .stories-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stories-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}

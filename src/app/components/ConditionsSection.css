@@ -1,0 +1,111 @@
+.conditions-section {
+  background-color: #FDFDFc;
+  padding: 6rem 0;
+}
+
+.conditions-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.conditions-sidebar {
+  flex: 0 0 350px;
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.conditions-label {
+  color: #DE6A4D;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.conditions-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #104037;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.conditions-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5A6361;
+  margin-bottom: 2rem;
+}
+
+.conditions-link {
+  color: #104037;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.conditions-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.condition-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease;
+}
+
+.condition-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.condition-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.condition-card h3 {
+  color: #104037;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+
+.condition-card p {
+  color: #5A6361;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .conditions-container {
+    flex-direction: column;
+  }
+  
+  .conditions-sidebar {
+    flex: none;
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .conditions-grid {
+    grid-template-columns: 1fr;
+  }
+}

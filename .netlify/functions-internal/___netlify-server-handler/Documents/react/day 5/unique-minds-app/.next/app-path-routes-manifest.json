@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/newsletter/route": "/api/newsletter",
+  "/assessments/page": "/assessments",
+  "/centres/page": "/centres",
+  "/conditions/page": "/conditions",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/programs/page": "/programs",
+  "/services/page": "/services"
+}
